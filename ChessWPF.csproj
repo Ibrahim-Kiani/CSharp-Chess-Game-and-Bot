@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BBishop.png" />
+    <None Remove="BKing.png" />
+    <None Remove="BKnight.png" />
+    <None Remove="BPawn.png" />
+    <None Remove="BQueen.png" />
+    <None Remove="BRook.png" />
+    <None Remove="Images\BBishop.png" />
+    <None Remove="Images\BKing.png" />
+    <None Remove="Images\BKnight.png" />
+    <None Remove="Images\BPawn.png" />
+    <None Remove="Images\BQueen.png" />
+    <None Remove="Images\BRook.png" />
+    <None Remove="Images\WBishop.png" />
+    <None Remove="Images\WKing.png" />
+    <None Remove="Images\WKnight.png" />
+    <None Remove="Images\WPawn.png" />
+    <None Remove="Images\WQueen.png" />
+    <None Remove="Images\WRook.png" />
+    <None Remove="WBishop.png" />
+    <None Remove="WKing.png" />
+    <None Remove="WKnight.png" />
+    <None Remove="WPawn.png" />
+    <None Remove="WQueen.png" />
+    <None Remove="WRook.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\BBishop.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\BKing.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\BKnight.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\BPawn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\BQueen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\BRook.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\WBishop.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\WKing.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\WKnight.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\WPawn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\WQueen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\WRook.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.3.0" />
+  </ItemGroup>
+
+</Project>
