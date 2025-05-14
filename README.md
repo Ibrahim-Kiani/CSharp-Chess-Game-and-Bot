@@ -37,7 +37,7 @@ A modern chess application built with WPF (.NET 8.0) that offers both local mult
 ### Setup
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/ChessWPF.git
+   git clone https://github.com/Ibrahim-Kiani/CSharp-Chess-Game-and-Bot.git
    ```
 2. Open the solution in Visual Studio
 3. Restore NuGet packages
